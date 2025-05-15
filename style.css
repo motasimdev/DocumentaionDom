@@ -1,0 +1,7 @@
+h1{
+    font-size: 100px;
+    font-weight: 900;
+    background: url(02.jpg);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}

@@ -8,7 +8,12 @@ let inputDlt = document.getElementById("inputDlt")
 let dltBtn = document.getElementById("dltBtn")
 
 inputDlt.addEventListener("keyup", ()=>{
-    
+    if (inputDlt.value == "delete") {
+        dltBtn.removeAttribute("disabled")
+    }
+    else{
+        dltBtn.setAttribute("disabled", true)
+    }
 })
 
 dltBtn.addEventListener("click", ()=>{
