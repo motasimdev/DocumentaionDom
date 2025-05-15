@@ -7,6 +7,10 @@ let heading = document.getElementById("heading")
 let inputDlt = document.getElementById("inputDlt")
 let dltBtn = document.getElementById("dltBtn")
 
+inputDlt.addEventListener("keyup", ()=>{
+    
+})
+
 dltBtn.addEventListener("click", ()=>{
     heading.style.display= "none"
 })
